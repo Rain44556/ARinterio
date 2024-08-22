@@ -5,16 +5,164 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>House Design</title>
 
-    <!-- daisyui cdn -->
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    
+<!-- daisyUI link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
+    <style>
+        .manrope-font{
+            font-family: "Manrope", sans-serif;
+        }
+        nav{
+          /* background: linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%); */
+            background-color: rgb(243, 243, 246);
+        }
+    </style>
+ 
+  <script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          clifford: '#da373d',
+          'primary-color': '#ABEF5F',
+          'secondary-color': "#1C1C1C",
+          'unique-color': "#494949",
+          'common-color': '#737373',
+          'heading-text-color': '#212121',
+        }
+      }
+    }
+  }
+  </script>
 </head>
-<body>
+
+<body class="manrope-font">
+
+  <!-- navbar section -->
     <header>
+        <nav>
+          <div class="navbar p-8">
+            <div class="navbar-start">
+              <button class="btn btn-circle bg-primary-color">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="9 1 15 15"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M10 14L21 3M21 3H14M21 3V10"/>
+                </svg>
+              </button>
+              <a class="btn btn-ghost text-2xl font-extrabold">ARinterio</a>
+            </div>
+
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-base text-common-color font-normal">
+                <li class="text-unique-color font-extrabold"><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+
+            <div class="navbar-end">
+             <div class="hidden sm:inline-block">
+
+              <div tabindex="0" role="button" class="btn btn-ghost btn-circle bg-white solid border-1 border-white mr-3">
+                <div class="indicator">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-7 w-7 text-common-color"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M21 21l-4.35-4.35m1.35-5.65a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                </div>
+              </div>
+              <div tabindex="0" role="button" class="btn btn-ghost btn-circle bg-white solid border-1 border-white mr-3">
+                <div class="indicator">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 text-common-color"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>
+                </div>
+              </div>
+              <a class="btn rounded-full bg-primary-color text-lg font-black px-6 text-secondary-color ">Book Consult
+                <button class="btn btn-circle bg-secondary-color text-white btn-sm">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-5"
+                    fill="none"
+                    viewBox="8 0 15 15"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      d="M10 14L21 3M21 3H14M21 3V10"/>
+                  </svg>
+                </button>
+              </a>
+             </div>
+             </div>
+
+            <div class="dropdown lg:hidden">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="dropdown-content bg-base-100 rounded-box shadow">
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </nav>
     </header>
 
-    <main></main>
+    <main>
+
+    </main>
 
     <footer></footer>
 </body>
