@@ -18,9 +18,12 @@
         .manrope-font{
             font-family: "Manrope", sans-serif;
         }
-        nav{
-          /* background: linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%); */
-            background-color: rgb(243, 243, 246);
+        header{
+            background: linear-gradient(0deg, rgba(255, 255, 255),
+                                            rgb(242, 242, 242) 100%);
+        }
+        .btn-details{
+          background: #abef5f80;
         }
     </style>
  
@@ -77,58 +80,58 @@
             </div>
 
             <div class="navbar-end">
-             <div class="hidden sm:inline-block">
-
-              <div tabindex="0" role="button" class="btn btn-ghost btn-circle bg-white solid border-1 border-white mr-3">
-                <div class="indicator">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-7 w-7 text-common-color"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M21 21l-4.35-4.35m1.35-5.65a7 7 0 11-14 0 7 7 0 0114 0z" />
-                  </svg>
-                </div>
-              </div>
-              <div tabindex="0" role="button" class="btn btn-ghost btn-circle bg-white solid border-1 border-white mr-3">
-                <div class="indicator">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6 text-common-color"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                  </svg>
-                </div>
-              </div>
-              <a class="btn rounded-full bg-primary-color text-lg font-black px-6 text-secondary-color ">Book Consult
-                <button class="btn btn-circle bg-secondary-color text-white btn-sm">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-4 w-5"
-                    fill="none"
-                    viewBox="8 0 15 15"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
-                      d="M10 14L21 3M21 3H14M21 3V10"/>
-                  </svg>
-                </button>
-              </a>
-             </div>
-             </div>
+          <div class="hidden lg:flex">
+          <div tabindex="0" role="button" class="btn btn-ghost btn-circle bg-white solid border-1 border-white mr-3">
+    <div class="indicator">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-7 w-7 text-common-color"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M21 21l-4.35-4.35m1.35-5.65a7 7 0 11-14 0 7 7 0 0114 0z" />
+      </svg>
+    </div>
+  </div>
+  <div tabindex="0" role="button" class="btn btn-ghost btn-circle bg-white solid border-1 border-white mr-3">
+    <div class="indicator">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6 text-common-color"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+      </svg>
+    </div>
+  </div>
+  <a class="btn rounded-full bg-primary-color text-lg font-black px-6 text-secondary-color ">Book Consult
+    <button class="btn btn-circle bg-secondary-color text-white btn-sm">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-4 w-5"
+        fill="none"
+        viewBox="8 0 15 15"
+        stroke="currentColor">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.5"
+          d="M10 14L21 3M21 3H14M21 3V10"/>
+      </svg>
+    </button>
+  </a>
+</div>
+</div>
+             
 
             <div class="dropdown lg:hidden">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -158,10 +161,48 @@
 
           </div>
         </nav>
+
+        <!-- banner section -->
+        <div class="hero">
+          <div class="hero-content text-center ">
+            <div class="hero-content flex-col">
+              <img
+                src="./images/banner.png"
+                class="max-w-md rounded-lg" />
+              <div>
+            <div class="max-w-4xl">
+              <h1 class="text-5xl font-extrabold text-heading-text-color">A barn house of this design has a striking appearance</h1>
+              <p class="py-6">
+                The outer covering generally combines traditional elements like weathered wood or reclaimed lumber with sleek, contemporary finishes like metal roofs and wide glass windows. The tall, steeply pitched roofline, reminiscent of ancient barns, offers visual interest as well as utilitarian space, frequently housing a large loft or mezzanine.
+              </p>
+              <div>
+                <a class="btn rounded-full btn-details text-xl font-bold px-8 text-heading-text-color border-solid border border-primary-color">View Details
+                  <button class="btn btn-circle bg-primary-color btn-sm">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-5"
+                      fill="none"
+                      viewBox="8 0 15 15"
+                      stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.5"
+                        d="M10 14L21 3M21 3H14M21 3V10"/>
+                    </svg>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
     </header>
 
     <main>
-
+      <!-- About Us -->
+    
     </main>
 
     <footer></footer>
