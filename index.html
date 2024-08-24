@@ -175,9 +175,9 @@
             <div class="hero-content flex-col">
               <img
                 src="./images/banner.png"
-                class="max-w-md rounded-lg" />
+                class="max-w-xs rounded-lg border border-primary-color" />
               <div>
-            <div class="max-w-4xl">
+            <div class="lg:max-w-4xl">
               <h1 class="text-5xl font-extrabold text-heading-text-color">A barn house of this design has a striking appearance</h1>
               <p class="py-6">
                 The outer covering generally combines traditional elements like weathered wood or reclaimed lumber with sleek, contemporary finishes like metal roofs and wide glass windows. The tall, steeply pitched roofline, reminiscent of ancient barns, offers visual interest as well as utilitarian space, frequently housing a large loft or mezzanine.
@@ -338,96 +338,191 @@
           </div>
            </div>
 
-           <div class="explore-cards-1 grid grid-cols-3 gap-10 mb-8">
+           <!-- for desktop -->
+           <div class="hidden sm:hidden lg:block">
+            <div class="explore-cards-1 grid lg:grid-cols-3 gap-10 mb-8 ">
 
-            <div class="card lg:card-side bg-base-100 col-span-2 border border-nav p-5 ml-16">
-              <figure>
-                <img
-                  src="./images/img1.png"
-                  alt="Commercial" />
-              </figure>
-              <div class="card-body">
-                <h2 class="card-title text-unique-color text-2xl font-extrabold">Commercial</h2>
-                <p class="text-base font-medium text-common-color">Build your own home today, with every feature carefully constructed to perfection.</p>
-                <div class="card-actions justify-items-start">
-                  <a class="text-lg font-extrabold text-heading-text-color text-left">View Details
-                    <button class="btn btn-circle bg-primary-color btn-sm">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-4 w-5"
-                        fill="none"
-                        viewBox="8 0 15 15"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="1.5"
-                          d="M10 14L21 3M21 3H14M21 3V10"/>
-                      </svg>
-                    </button>
-                  </a>
+              <div class="card lg:card-side bg-base-100 lg:col-span-2 border-2 border-nav p-5 lg:ml-16 ">
+                <figure>
+                  <img
+                    src="./images/img1.png"
+                    alt="Commercial" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title text-unique-color text-2xl font-extrabold">Commercial</h2>
+                  <p class="text-base font-medium text-common-color">Build your own home today, with every feature carefully constructed to perfection.</p>
+                  <div class="card-actions justify-items-start">
+                    <a class="text-lg font-extrabold text-heading-text-color text-left">View Details
+                      <button class="btn btn-circle bg-primary-color btn-sm">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-4 w-5"
+                          fill="none"
+                          viewBox="8 0 15 15"
+                          stroke="currentColor">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="1.5"
+                            d="M10 14L21 3M21 3H14M21 3V10"/>
+                        </svg>
+                      </button>
+                    </a>
+                  </div>
                 </div>
               </div>
+  
+              <div class="card-image border-2 border-nav px-8 lg:w-96 py-8 rounded-2xl">
+                  <img
+                    src="./images/img2.png"
+                    alt="image" />
+              </div>
+  
             </div>
-
-            <div class="card-image border border-nav px-8 w-96 py-8 rounded-2xl">
+  
+            <div class="explore-cards-2 grid lg:grid-cols-4 gap-10 ">
+  
+              <div class="card-image border-2 border-nav lg:w-64 py-6 rounded-2xl lg:ml-16 hidden lg:inline-block">
                 <img
-                  src="./images/img2.png"
+                class="mx-auto"
+                  src="./images/img3.png"
                   alt="image" />
             </div>
-
-          </div>
-
-          <div class="explore-cards-2 grid grid-cols-4 gap-10">
-
-            <div class="card-image border border-nav px-3 w-64 py-6 rounded-2xl ml-16">
-              <img
-                src="./images/img3.png"
-                alt="image" />
-          </div>
-
-            <div class="card lg:card-side bg-base-100 col-span-2 border border-nav p-2">
-              <figure>
-                <img
-                  src="./images/img4.png"
-                  alt="Commercial" />
-              </figure>
-              <div class="card-body">
-                <h2 class="card-title text-unique-color text-2xl font-extrabold">Commercial</h2>
-                <p class="text-base font-medium text-common-color">Build your own home today, with every feature carefully constructed to perfection.</p>
-                <div class="card-actions justify-items-start">
-                  <a class="text-lg font-extrabold text-heading-text-color text-left">View Details
-                    <button class="btn btn-circle bg-primary-color btn-sm">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-4 w-5"
-                        fill="none"
-                        viewBox="8 0 15 15"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="1.5"
-                          d="M10 14L21 3M21 3H14M21 3V10"/>
-                      </svg>
-                    </button>
-                  </a>
+  
+              <div class="card lg:card-side bg-base-100 lg:col-span-2 border-2 border-nav p-2">
+                <figure>
+                  <img
+                    src="./images/img4.png"
+                    alt="Commercial" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title text-unique-color text-2xl font-extrabold">Commercial</h2>
+                  <p class="text-base font-medium text-common-color">Build your own home today, with every feature carefully constructed to perfection.</p>
+                  <div class="card-actions justify-items-start">
+                    <a class="text-lg font-extrabold text-heading-text-color text-left">View Details
+                      <button class="btn btn-circle bg-primary-color btn-sm">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-4 w-5"
+                          fill="none"
+                          viewBox="8 0 15 15"
+                          stroke="currentColor">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="1.5"
+                            d="M10 14L21 3M21 3H14M21 3V10"/>
+                        </svg>
+                      </button>
+                    </a>
+                  </div>
                 </div>
               </div>
+  
+              <div class="card-image border-2 border-nav lg:px-3 lg:w-64 lg:py-6 rounded-2xl">
+                  <img
+                  class="mx-auto"
+                    src="./images/img5.png"
+                    alt="image" />
+              </div>
+  
             </div>
+           </div>
 
-            <div class="card-image border border-nav px-3 w-64 py-6 rounded-2xl">
+          <!-- for mobile -->
+          <div class="lg:hidden sm:block">
+            <div class="explore-cards-1 grid lg:grid-cols-3 gap-10 mb-8 ">
+
+              <div class="card lg:card-side bg-base-100 lg:col-span-2 border-2 border-nav lg:p-5 lg:ml-16 max-w-xs mx-auto">
+                <figure>
+                  <img
+                  class="mt-4"
+                    src="./images/img1.png"
+                    alt="Commercial" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title text-unique-color text-2xl font-extrabold">Commercial</h2>
+                  <p class="text-lg font-medium text-common-color">Build your own home today, with every feature carefully constructed to perfection.</p>
+                  <div class="card-actions justify-items-start">
+                    <a class="text-lg font-extrabold text-heading-text-color text-left">View Details
+                      <button class="btn btn-circle bg-primary-color btn-sm">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-4 w-5"
+                          fill="none"
+                          viewBox="8 0 15 15"
+                          stroke="currentColor">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="1.5"
+                            d="M10 14L21 3M21 3H14M21 3V10"/>
+                        </svg>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="card-image border-2 border-nav px-3 lg:w-96 py-3 rounded-2xl max-w-xs mx-auto">
+                  <img
+                    src="./images/img2.png"
+                    alt="image" />
+              </div>
+  
+            </div>
+  
+            <div class="explore-cards-2 grid lg:grid-cols-4 gap-10 ">
+  
+              <div class="card-image border-2 border-nav lg:w-64 py-6 rounded-2xl lg:ml-16 hidden lg:inline-block max-w-xs mx-auto">
                 <img
-                  src="./images/img5.png"
+                class="mx-auto"
+                  src="./images/img3.png"
                   alt="image" />
             </div>
+  
+              <div class="card lg:card-side bg-base-100 lg:col-span-2 border-2 border-nav p-2 max-w-xs mx-auto">
+                <figure>
+                  <img
+                    src="./images/img4.png"
+                    alt="Commercial" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title text-unique-color text-2xl font-extrabold">Commercial</h2>
+                  <p class="text-base font-medium text-common-color">Build your own home today, with every feature carefully constructed to perfection.</p>
+                  <div class="card-actions justify-items-start">
+                    <a class="text-lg font-extrabold text-heading-text-color text-left">View Details
+                      <button class="btn btn-circle bg-primary-color btn-sm">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-4 w-5"
+                          fill="none"
+                          viewBox="8 0 15 15"
+                          stroke="currentColor">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="1.5"
+                            d="M10 14L21 3M21 3H14M21 3V10"/>
+                        </svg>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="card-image border-2 border-nav lg:px-3  lg:py-6 rounded-2xl max-w-xs mx-auto sm:p-3">
+                  <img
+                  class="w-72"
+                    src="./images/img5.png"
+                    alt="image" />
+              </div>
+  
+            </div>
+          </div>
+
 
           </div>
-          </div>
-
-         
-
-     
 
 
         <!-- discuss projects -->
