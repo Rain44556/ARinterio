@@ -28,6 +28,9 @@
         .btn-details{
           background: #abef5f80;
         }
+        .btn-discuss{
+          background: #abef5f33;
+        }
     </style>
  
   <script>
@@ -205,7 +208,7 @@
 
     <main>
       <!-- About Us -->
-      <div class="hero bg-base-200 ">
+      <div class="Abount-container hero bg-base-200 ">
         <div class="hero-content flex-col lg:flex-row-reverse">
           <img
             src="./images/Rectangle.png"
@@ -250,7 +253,8 @@
       </div>
 
       <!-- works process -->
-      <div class="works-process-container hero bg-base-200">
+       <div class="works-process-container">
+      <div class="works-process-info hero bg-base-200">
         <div class="hero-content text-center">
           <div class="max-w-md lg:max-w-2xl">
             <a class="btn rounded-full bg-white font-bold px-8 my-4 text-unique-color text-base">
@@ -260,15 +264,11 @@
             <p class="py-6">
               This organized method guarantees that the house design reflects the client's vision while also being functional, sustainable, and in accordance with all requirements. Collaboration between the customer, designer, and contractor throughout the project is critical to its success.
             </p>
-
-            
-            
           </div>
         </div>
       </div>
 
-                      <!-- cards -->
-      <div class="grid lg:grid-cols-4 gap-4 px-28 bg-base-200">
+      <div class="works-process-cards grid lg:grid-cols-4 gap-4 px-28 bg-base-200">
 
         <div class="card card-compact bg-fuchsia-300 mb-16 w-72 p-3 shadow-xl grid justify-items-start">
           <figure class=" ml-3 pt-3">
@@ -318,6 +318,58 @@
             <p class="text-base font-medium">It guarantees that your dream house remains within financial reach</p>
           </div>
         </div>
+        </div>
+       </div>
+
+        <!-- discuss projects -->
+        <div class="project-discuss-container hero pb-20"
+             style="background-image: url(./images/bg.jpg);">
+        <div class="hero-overlay bg-opacity-0"></div>
+
+    <div class="project-discuss-content   text-center">
+      <div class="max-w-md lg:max-w-2xl">
+        <a class="btn rounded-full btn-discuss font-bold px-8 my-4 text-unique-color text-base">
+          <i class="fa-solid fa-arrow-right"></i>Let's Connect
+        </a>
+        <h1 class="text-5xl font-bold">Let's Discuss Next Project</h1>
+        <p class="py-6">
+          The proposal focuses on combining natural elegance with modern utility, stressing open floor designs, exposed wooden beams, large windows for natural light, and sustainable materials.
+        </p>
+
+        
+        
+      </div>
+
+      <div class="project-discuss-form flex w-full h-12 flex-col gap-4 lg:flex-row mb-3">
+        <div class="card bg-white rounded-full grid flex-grow place-items-center text-sm text-gray-500">First Name*</div>
+        <div class="card bg-white rounded-full grid flex-grow place-items-center text-sm text-gray-500">Last Name*</div>
+      </div>
+      <div class="project-discuss-form flex w-full h-12 flex-col gap-4 lg:flex-row">
+        <div class="card bg-white rounded-full grid flex-grow place-items-center text-sm text-gray-500">Phone Number*</div>
+        <div class="card bg-white rounded-full grid flex-grow place-items-center text-sm text-gray-500">Email Number*</div>
+      </div>
+
+      <div class="card h-36 my-4 rounded-3xl bg-white grid flex-grow place-items-start text-sm text-gray-500 p-4">Write your message here</div>
+    
+    <a class="btn rounded-full bg-primary-color text-secondary-color text-xl text-lg font-extrabold w-full">Book Consult
+      <button class="btn btn-circle bg-secondary-color text-white btn-sm">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-4 w-5"
+          fill="none"
+          viewBox="8 0 15 15"
+          stroke="currentColor">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M10 14L21 3M21 3H14M21 3V10"/>
+        </svg>
+      </button>
+    </a>
+    </div>
+
+   
         </div>
     </main>
 
