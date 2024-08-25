@@ -73,7 +73,7 @@
                     d="M10 14L21 3M21 3H14M21 3V10"/>
                 </svg>
               </button>
-              <a class="btn btn-ghost text-2xl font-extrabold text-nav">ARinterio</a>
+              <a class="btn btn-ghost text-2xl font-extrabold text-heading-text-color">ARinterio</a>
             </div>
 
             <div class="navbar-center hidden lg:flex">
@@ -170,15 +170,15 @@
         </nav>
 
         <!-- banner section -->
-        <div class="hero">
+        <div class="banner-section hero">
           <div class="hero-content text-center ">
             <div class="hero-content flex-col">
               <img
                 src="./images/banner.png"
-                class="max-w-xs rounded-lg border border-primary-color" />
+                class="max-w-xs lg:max-w-md rounded-lg" />
               <div>
             <div class="lg:max-w-4xl">
-              <h1 class="text-5xl font-extrabold text-heading-text-color">A barn house of this design has a striking appearance</h1>
+              <h1 class="lg:text-5xl text-3xl font-extrabold text-heading-text-color">A barn house of this design has a striking appearance</h1>
               <p class="py-6">
                 The outer covering generally combines traditional elements like weathered wood or reclaimed lumber with sleek, contemporary finishes like metal roofs and wide glass windows. The tall, steeply pitched roofline, reminiscent of ancient barns, offers visual interest as well as utilitarian space, frequently housing a large loft or mezzanine.
               </p>
@@ -209,69 +209,76 @@
 
     <main>
       <!-- About Us -->
-      <div class="Abount-container hero bg-base-200 ">
-        <div class="hero-content flex-col lg:flex-row-reverse">
-          <img
-            src="./images/Rectangle.png"
-            class="max-w-sm rounded-lg shadow-2xl lg:max-w-md lg:mt-40" />
+      <div class="About-container hero bg-base-200">
+        <div class="hero-content grid lg:grid-cols-2">
+          
           <div>
             <div class="hidden lg:flex mt-5">
               <img src="./images/Vector.png" alt="">
             </div>
-            <div class="ml-10">
-            <a class="btn rounded-full bg-white font-bold px-8 my-4 text-unique-color text-base">
-              <i class="fa-solid fa-arrow-right"></i>About Us
-            </a>
-            <h1 class="text-5xl font-bold text-left w-4/5">We design thoughtful, liveable spaces</h1>
-            <p class="py-3 text-base font-medium text-left">
-              It shows a dedication to creating settings that are not just visually appealing but also functional and comfortable. It highlights the necessity of deliberate design, in which each piece is carefully examined to improve the quality of life.
+            <div class="lg:ml-10">
+            <div class="mx-24 lg:mx-0">
+              <a class="btn rounded-full bg-white font-bold px-8 my-4  text-base justify-items-center">
+                <i class="fa-solid fa-arrow-right"></i>About Us
+              </a>
+            </div>
+            <h1 class="lg:text-5xl text-2xl font-bold lg:text-left text-center w-4/5 lg:w-full mx-auto lg:mx-0">We design thoughtful, liveable spaces</h1>
+            <p class="py-3 text-sm font-medium text-center lg:text-left mb-3 w-4/5 lg:w-full mx-auto lg:mx-0">
+              It shows a dedication to creating settings that are not just visually appealing but also functional and comfortable. It highlights the necessity of deliberate design.
             </p>
-            <div class="card card-side bg-base-100 shadow-xl">
-              <figure class="pl-5">
+
+            <div class="card-1 card card-side bg-base-100 mb-5 w-80 lg:w-full mx-auto lg:mx-0">
+              <figure class="pl-5 w-44">
                 <img
+                class="mb-24 lg:mb-0"
                   src="./images/commercial.png"
                   alt="commercial" />
               </figure>
               <div class="card-body">
                 <h2 class="card-title text-xl font-extrabold unique-color">Commercial</h2>
-                <p class="text-base font-medium text-left">These designs frequently have a stunning appearance, characterized by towering, open areas, huge windows.</p>
+                <p class="text-base font-medium text-left">These designs have a stunning appearance, characterized by towering, open areas, huge windows.</p>
               </div>
             </div>
-            <div class="card card-side bg-base-100 shadow-xl mt-3">
-              <figure class="pl-5">
+            <div class="card-2 card card-side bg-base-100 mb-5 w-80 lg:w-full mx-auto lg:mx-0">
+              <figure class="pl-5 w-44">
                 <img
+                class="mb-24 lg:mb-0"
                   src="./images/residential.png"
                   alt="residential" />
               </figure>
               <div class="card-body">
                 <h2 class="card-title text-xl font-extrabold unique-color">Residential</h2>
-                <p class="text-base font-medium text-left">This is particularly appealing to those who value the connection with nature, as it frequently features outside living spaces.</p>
+                <p class="text-base font-medium text-left">This is particularly appealing to who value connection with nature as it features outside living spaces.</p>
               </div>
             </div>
             </div>
           </div>
+
+          <img
+            src="./images/Rectangle.png"
+            class="w-80 lg:w-full mx-auto lg:mx-4 rounded-lg" />
         </div>
       </div>
 
       <!-- works process -->
-       <div class="works-process-container">
-      <div class="works-process-info hero bg-base-200">
+       <div class="works-process-container bg-base-200">
+      <div class="works-process-info hero">
         <div class="hero-content text-center">
           <div class="max-w-md lg:max-w-2xl">
             <a class="btn rounded-full bg-white font-bold px-8 my-4 text-unique-color text-base">
               <i class="fa-solid fa-arrow-right"></i>How we works
             </a>
-            <h1 class="text-5xl font-bold">Our Works Process</h1>
-            <p class="py-6">
+            <h1 class="lg:text-5xl text-2xl font-bold">Our Works Process</h1>
+            <p class="py-4 text-unique-color text-sm">
               This organized method guarantees that the house design reflects the client's vision while also being functional, sustainable, and in accordance with all requirements. Collaboration between the customer, designer, and contractor throughout the project is critical to its success.
             </p>
           </div>
         </div>
       </div>
 
-      <div class="works-process-cards grid lg:grid-cols-4 gap-4 px-28 bg-base-200">
+      <div class="works-process-cards grid lg:grid-cols-4 gap-4 lg:px-28">
 
-        <div class="card card-compact bg-fuchsia-300 mb-16 w-72 p-3 shadow-xl grid justify-items-start">
+        <div class="works-process-card-1 card card-compact bg-fuchsia-300 lg:mb-16 lg:w-72 w-96 p-3 grid justify-items-start mx-auto">
           <figure class=" ml-3 pt-3">
             <img
             class=""
@@ -280,11 +287,11 @@
           </figure>
           <div class="card-body">
             <h2 class="card-title text-xl font-extrabold">Concept</h2>
-            <p class="text-base font-medium">It play important role in house design, impacting the overall appearance.</p>
+            <p class="text-base font-medium text-unique-color">It play important role in house design, impacting the overall appearance.</p>
           </div>
         </div>
 
-        <div class="card card-compact bg-yellow-300 mb-16 w-72 p-3 shadow-xl grid justify-items-start">
+        <div class="works-process-card-2 card card-compact bg-yellow-300 lg:mb-16 lg:w-72 w-96 p-3 grid justify-items-start mx-auto">
           <figure class=" ml-3 pt-3">
             <img
               src="./images/flow-chart.png"
@@ -292,11 +299,11 @@
           </figure>
           <div class="card-body">
             <h2 class="card-title text-xl font-extrabold">Design Process!</h2>
-            <p class="text-base font-medium">A house's design must prioritize how the occupants will use the space.</p>
+            <p class="text-base font-medium text-unique-color">A house's design must prioritize how the occupants will use the space.</p>
           </div>
         </div>
 
-        <div class="card card-compact bg-green-300 mb-16 w-72 p-3 shadow-xl grid justify-items-start">
+        <div class="works-process-card-3 card card-compact bg-green-300 lg:mb-16 lg:w-72 w-96 p-3 grid justify-items-start mx-auto">
           <figure class=" ml-3 pt-3">
             <img
               src="images/vision.png"
@@ -304,11 +311,11 @@
           </figure>
           <div class="card-body">
             <h2 class="card-title text-xl font-extrabold">Supervision</h2>
-            <p class="text-base font-medium">It includes the construction managing process from start to conclusion.</p>
+            <p class="text-base font-medium text-unique-color">It includes the construction managing process from start to conclusion.</p>
           </div>
         </div>
 
-        <div class="card card-compact bg-blue-400 mb-16 w-72 p-3 shadow-xl grid justify-items-start">
+        <div class="works-process-card-4 card card-compact bg-blue-400 mb-16 lg:w-72 w-96 p-3 grid justify-items-start mx-auto">
           <figure class=" ml-3 pt-3">
             <img
             src="./images/budget-planning.png"
@@ -316,7 +323,7 @@
           </figure>
           <div class="card-body">
             <h2 class="card-title text-xl font-extrabold">Budget Planning</h2>
-            <p class="text-base font-medium">It guarantees that your dream house remains within financial reach</p>
+            <p class="text-base font-medium text-unique-color">It guarantees that your dream house remains within financial reach</p>
           </div>
         </div>
         </div>
@@ -324,14 +331,14 @@
 
 
        <!-- Latest works -->
-       <div class="latest-works-container pb-20">
+       <div class="latest-works-container pb-20 bg-base-200 lg:bg-white">
 
         <div class="latest-works-content hero text-center">
           <div class="max-w-md lg:max-w-2xl">
             <a class="btn rounded-full btn-discuss font-bold px-8 my-4 text-unique-color text-base">
-              <i class="fa-solid fa-arrow-right"></i>Let's Discuss Next Project
+              <i class="fa-solid fa-arrow-right"></i>Explore Our Latest Works
             </a>
-            <h1 class="text-5xl font-bold">Our Latest Portfolio</h1>
+            <h1 class="text-2xl lg:text-5xl font-extrabold">Our Latest Portfolio</h1>
             <p class="py-6">
               This portfolio highlights creative use of space, sustainable materials, and a seamless transition between indoor and outdoor living.
             </p>
@@ -381,7 +388,6 @@
             </div>
   
             <div class="explore-cards-2 grid lg:grid-cols-4 gap-10 ">
-  
               <div class="card-image border-2 border-nav lg:w-64 py-6 rounded-2xl lg:ml-16 hidden lg:inline-block">
                 <img
                 class="mx-auto"
@@ -389,9 +395,10 @@
                   alt="image" />
             </div>
   
-              <div class="card lg:card-side bg-base-100 lg:col-span-2 border-2 border-nav p-2">
+              <div class="card lg:card-side bg-base-100 lg:col-span-2 p-3 border-2 border-nav">
                 <figure>
                   <img
+                  class="h-44 rounded-2xl"
                     src="./images/img4.png"
                     alt="Commercial" />
                 </figure>
@@ -464,7 +471,7 @@
                 </div>
               </div>
   
-              <div class="card-image border-2 border-nav px-3 lg:w-96 py-3 rounded-2xl max-w-xs mx-auto">
+              <div class="card-image border-2 border-nav px-3 lg:w-96 py-3 rounded-2xl max-w-xs mx-auto bg-white">
                   <img
                     src="./images/img2.png"
                     alt="image" />
@@ -474,16 +481,24 @@
   
             <div class="explore-cards-2 grid lg:grid-cols-4 gap-10 ">
   
-              <div class="card-image border-2 border-nav lg:w-64 py-6 rounded-2xl lg:ml-16 hidden lg:inline-block max-w-xs mx-auto">
+              <div class="card-image border-2 border-nav lg:w-64 py-6 rounded-2xl lg:ml-16 hidden lg:inline-block max-w-xs mx-auto ">
                 <img
                 class="mx-auto"
                   src="./images/img3.png"
                   alt="image" />
             </div>
+
+            <div class="card-image border-2 border-nav px-4 w-96 py-6 rounded-2xl max-w-xs mx-auto bg-white">
+              <img
+              class="w-72"
+                src="./images/img5.png"
+                alt="image" />
+          </div>
   
-              <div class="card lg:card-side bg-base-100 lg:col-span-2 border-2 border-nav p-2 max-w-xs mx-auto">
+              <div class="card lg:card-side bg-base-100 lg:col-span-2 border-2 border-nav max-w-xs mx-auto ">
                 <figure>
                   <img
+                  class="pt-5"
                     src="./images/img4.png"
                     alt="Commercial" />
                 </figure>
@@ -511,12 +526,19 @@
                 </div>
               </div>
   
-              <div class="card-image border-2 border-nav lg:px-3  lg:py-6 rounded-2xl max-w-xs mx-auto sm:p-3">
-                  <img
-                  class="w-72"
-                    src="./images/img5.png"
-                    alt="image" />
-              </div>
+              <div class="card-image border-2 border-nav px-4 w-96 py-6 rounded-2xl max-w-xs mx-auto bg-white">
+                <img
+                class="w-72"
+                  src="./images/img3.png"
+                  alt="image" />
+            </div>
+
+              <div class="card-image border-2 border-nav px-4 w-96 py-6 rounded-2xl max-w-xs mx-auto bg-white">
+                <img
+                class="w-72"
+                  src="./images/img5.png"
+                  alt="image" />
+            </div>
   
             </div>
           </div>
@@ -530,7 +552,7 @@
              style="background-image: url(./images/bg.jpg);">
         <div class="hero-overlay bg-opacity-0"></div>
 
-    <div class="project-discuss-content   text-center">
+    <div class="project-discuss-content   text-center m-4">
       <div class="max-w-md lg:max-w-2xl">
         <a class="btn rounded-full btn-discuss font-bold px-8 my-4 text-unique-color text-base">
           <i class="fa-solid fa-arrow-right"></i>Let's Connect
@@ -541,18 +563,18 @@
         </p>
       </div>
 
-      <div class="project-discuss-form flex w-full h-12 flex-col gap-4 lg:flex-row mb-3">
-        <div class="card bg-white rounded-full grid flex-grow place-items-center text-sm text-gray-500">First Name*</div>
-        <div class="card bg-white rounded-full grid flex-grow place-items-center text-sm text-gray-500">Last Name*</div>
+      <div class="project-discuss-name-form flex w-full lg:h-12 h-32 flex-col gap-4 lg:flex-row mb-3">
+        <div class="card bg-white rounded-full grid flex-grow place-items-center justify-items-start pl-5 text-sm text-gray-500">First Name*</div>
+        <div class="card bg-white rounded-full grid flex-grow place-items-center justify-items-start pl-5 text-sm text-gray-500">Last Name*</div>
       </div>
-      <div class="project-discuss-form flex w-full h-12 flex-col gap-4 lg:flex-row">
-        <div class="card bg-white rounded-full grid flex-grow place-items-center text-sm text-gray-500">Phone Number*</div>
-        <div class="card bg-white rounded-full grid flex-grow place-items-center text-sm text-gray-500">Email Number*</div>
+      <div class="project-discuss-number-form flex w-full lg:h-12 h-32 flex-col gap-4 lg:flex-row">
+        <div class="card bg-white rounded-full grid flex-grow place-items-center justify-items-start pl-5 text-sm text-gray-500">Phone Number*</div>
+        <div class="card bg-white rounded-full grid flex-grow place-items-center justify-items-start pl-5 text-sm text-gray-500">Email Number*</div>
       </div>
 
-      <div class="card h-36 my-4 rounded-3xl bg-white grid flex-grow place-items-start text-sm text-gray-500 p-4">Write your message here</div>
+      <div class="project-discuss-text-area-form card h-36 my-4 rounded-3xl bg-white grid flex-grow place-items-start text-sm text-gray-500 p-4">Write your message here</div>
     
-    <a class="btn rounded-full bg-primary-color text-secondary-color text-xl text-lg font-extrabold w-full">Sent Mail
+    <a class="project-discuss-button-form btn rounded-full bg-primary-color text-secondary-color text-xl text-lg font-extrabold lg:w-full w-4/5">Sent Mail
       <button class="btn btn-circle bg-secondary-color text-white btn-sm">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -595,19 +617,19 @@
             </button>
             <a class="pl-3 text-2xl font-extrabold text-nav">ARinterio</a>
           </div>
-          <p class="text-base max-w-2xl">A delightful structure house design that combines natural beauty with modern comfort, offering open floor plans, exposed wooden beams, and comfortable, inviting places.</p>
+          <p class="text-base max-w-2xl font-medium text-common-color">A delightful structure house design that combines natural beauty with modern comfort, offering open floor plans, exposed wooden beams, and comfortable, inviting places.</p>
         </aside>
       </div>
 
-      <nav class="flex justify-around mt-5 font-medium text-nav">
-        <a class="link link-hover">Home</a>
-        <a class="link link-hover">Services</a>
-        <a class="link link-hover">Portfolio</a>
-        <a class="link link-hover">Blogs</a>
-        <a class="link link-hover">Contact Us</a>
+      <nav class="grid lg:grid-cols-5 mt-4 font-medium text-nav">
+        <a class="link link-hover mx-auto my-3">Home</a>
+        <a class="link link-hover mx-auto my-3">Services</a>
+        <a class="link link-hover mx-auto my-3">Portfolio</a>
+        <a class="link link-hover mx-auto my-3">Blogs</a>
+        <a class="link link-hover mx-auto my-3">Contact Us</a>
       </nav>
 
-      <div class=" footer-center mt-8">
+      <div class=" footer-center mt-5">
         <a class="btn rounded-full bg-primary-color text-lg font-black px-6 text-secondary-color ">Book Consult
           <button class="btn btn-circle bg-secondary-color text-white btn-sm">
             <svg
